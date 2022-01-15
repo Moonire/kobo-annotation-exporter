@@ -1,8 +1,8 @@
 # Kobo e-reader Annotation Exporter
 
-As far as I am aware, there are no options out there for exporting the annotations you make with Kobo e-readers into neat and readable files. This script finds all annotation files stored in the e-reader recursively and converts them into markdown files.
+As far as I am aware, there are no options out there for exporting the annotations you make with Kobo e-readers into neat and readable files with a simple script. So for those of us who don't wish to install Calibre just for this purpose, here is a script that finds all annotation files stored in the e-reader recursively and converts them into markdown files. Perfect if your workflow involves knowledge management software such as Obsidian.
 
-This script was developed with the Kobo Clara HD model.
+This script was developed with the Kobo Clara HD model in mind.
 
 ![.annot file](static/src.png)
 ![.md exported file](static/dst.png)
