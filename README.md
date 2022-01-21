@@ -17,7 +17,7 @@ This script was developed with the Kobo Clara HD model in mind.
 Simply drop the script in your `.local/bin` directory and call it from the command line. Your Kobo e-reader must be plugged in order for the script work.
 
 ```bash
-$ annot
+$ kobo-annotations-exporter.py
 No path was provided.
 Default KOBOeReader path will be used.
 Exporting Immanuel Kant - Fundamental Principles of the Metaphysic of Morals.md...
@@ -27,7 +27,7 @@ Exporting Chris Bailey - The Productivity Project.md...
 The default script I used corresponds to where the Kobo Clara HD model stores it's .annot files. If your model has a different directory setup you may enter a custom path like this.
 
 ```bash
-$ annot /media/user/KOBOeReader/Digital\ Editions/Annotations/
+$ kobo-annotation-exporter.py /media/user/KOBOeReader/Digital\ Editions/Annotations/
 Exporting Immanuel Kant - Fundamental Principles of the Metaphysic of Morals.md...
 Exporting Chris Bailey - The Productivity Project.md...
 ```
